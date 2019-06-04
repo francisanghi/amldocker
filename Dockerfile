@@ -32,7 +32,7 @@ RUN yum -y install nodejs
 RUN npm install -g serverless
 
 # CONFIGURE SERVERLESS
-RiUN serverless config credentials --provider aws --key  --secret
+RUN serverless config credentials --provider aws --key  --secret
 
 # INSTALL VIRTUAL ENV
 RUN curl -O https://bootstrap.pypa.io/get-pip.py
